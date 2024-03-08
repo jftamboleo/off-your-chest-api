@@ -1,0 +1,12 @@
+{
+  "name": "off-your-chest-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "server": "node --watch --env-file=config.env ./app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
