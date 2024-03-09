@@ -7,6 +7,7 @@
     "server": "node --watch --env-file=config.env ./app.js"
   },
   "dependencies": {
+    "cors": "2.8.5",
     "express": "^4.18.3"
   }
 }
